@@ -14,5 +14,9 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
-    return view('home');
+    return view('homepage');
+});
+
+Route::get('/the-second-page', function () {
+    return view('secondpage');
 });
